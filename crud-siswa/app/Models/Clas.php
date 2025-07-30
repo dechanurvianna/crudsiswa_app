@@ -6,9 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Clas extends Model
 {
-    protected $table = "Clases";
+    protected $table = "clases";
 
-    protected $guarde =[];
+    protected $guarded =[];
 
     public function users (){
         return $this->hasMany(User::class, 'clas_id');

@@ -8,3 +8,10 @@ Route::get('siswa/create', function () {
 Route::get('/', function () {
     return view('siswa.index');
 });
+Route::postt('/siswa/store', function (Request $request) {
+   // lakukan validasi data
+
+   // siapkan data yang akan di masukkan ke dalam tabel user
+
+   // simpan data ke dalam tebale user
+});

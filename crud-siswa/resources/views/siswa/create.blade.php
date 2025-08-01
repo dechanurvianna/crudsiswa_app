@@ -9,7 +9,8 @@
     <h1>Halaman Tambah Siswa</h1>
     <h1>Tambah Data Siswa</h1>
     <a href="/">Kembali</a>
-    <from action="" method="post">
+    <from action="/siswa/store" method="post">
+    @csrf
 </body>
 <div>
     <br>

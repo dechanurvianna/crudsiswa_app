@@ -8,7 +8,7 @@
 <body>
         <h1>Halaman Baru</h1>
         <h1>List Data</h1>
-        <a href="siswa/create">Tambah</a>
+        <a href="siswa/create">Tambah Data Siswa</a>
         <table border="1">
             <thead>
                 <tr>
